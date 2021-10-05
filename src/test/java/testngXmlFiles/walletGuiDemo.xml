@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Contact Policy QA" configfailurepolicy="continue" parallel="false" thread-count="3">
+
+    <test name="firefox">
+    <parameter name="browser" value="chrome" />
+        <parameter name="appUrl" value="https://qa-newtheme.imiconnect.com/login"></parameter>
+        <parameter name="userEmail" value="amit.a@imimobile.com"></parameter>
+        <parameter name="userPassword" value="Airjordan0@"></parameter>
+        <classes>
+            <class name="testcases.LoginDemoTest">
+                <methods>
+                   <include name="testApi"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>

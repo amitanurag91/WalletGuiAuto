@@ -1,0 +1,29 @@
+{
+  "data":{
+
+    "trackProgress":"true",
+    "expirationDate": "2021-12-31T23:59:59-0000",
+    "validTimeInterval.end": "2022-12-31T23:59:59-0000",
+
+    "barcode.type": "CODE128",
+    "barcode.value": "Ring Code 4764",
+    "barcode.altText": "4764",
+
+    "customHeaderFields[0].key": "First key",
+    "customHeaderFields[0].label": "New update",
+    "customHeaderFields[0].value": "Summer Sale is On,Wooho!!",
+    "customHeaderFields[0].align": "PKTextAlignmentLeft",
+
+    "texts[0].header": "SPEED PERKS DOUBLE REWARDS",
+    "texts[0].body": "$20 off $50 purchase"
+
+  },
+  "customLayout": {
+
+    "text": "<strong>Pass installed.</strong><p>Sorry for these colors</p>",
+    "fontColor": "#000000",
+    "backgroundColor": "{\"color\":\"#3B73AF\"}"
+
+  }
+
+}

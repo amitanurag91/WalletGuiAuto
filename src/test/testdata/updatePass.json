@@ -1,0 +1,14 @@
+{
+  "passId":"40a06f75-ba08-458d-85af-8879fe6afcb2",
+  "data":
+  {
+
+    "customHeaderFields[0].key": "Second key",
+    "customHeaderFields[0].label": "New1 update",
+    "customHeaderFields[0].value": "Offer new update,Hurray!!",
+    "customHeaderFields[0].align": "PKTextAlignmentLeft",
+    "texts[0].header": "REWARDS",
+    "texts[0].body": "25% Instant discount with SBI credit card"
+  }
+
+}
